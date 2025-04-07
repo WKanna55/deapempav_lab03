@@ -1,5 +1,7 @@
 # Lab03: como inicializarlo correctamente
 
-1. Iniciar la estructura de la BD de postgres con este comando
+1. Crear una BD vacia con el nombre de prefenrecia
 
-`pg_restore -U myuser -d newdatabase -v mydb.backup`
+2. Iniciar la estructura de la BD de postgres con este comando ( y ubicado en Data/ del proyecto)
+
+`psql -U tu_usuario -d nombre_base_datos -f estructura.sql`
